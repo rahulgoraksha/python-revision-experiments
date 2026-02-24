@@ -1,138 +1,187 @@
-# 🐍 Python Revision Experiments
+# 🚀 Python & Machine Learning Revision Lab
 
-This repository is a **comprehensive Python revision and experimentation workspace**, created while revisiting core Python concepts through structured notes and hands-on practice.
+> A structured, hands-on technical repository covering **Python Fundamentals → Data Analysis → Machine Learning → Model Evaluation → Ensemble Learning**
 
-It is based on a complete Python tutorial covering **fundamentals to intermediate concepts**, with a strong focus on **clarity, logic building, and practical coding examples**.
+This repository documents my continuous and disciplined learning journey in **Python, Data Analysis, and Machine Learning** through structured notebooks, experiments, and real-code implementations.
 
----
-
-## 📌 Purpose of This Repository
-
-- Revise **core Python concepts**
-- Strengthen **logical thinking & problem-solving**
-- Practice Python using **small experiments & examples**
-- Serve as a **quick reference repo** for interviews and daily use
+It is designed as a **progressive technical roadmap**, moving from core programming foundations to advanced ML concepts, with practical implementation at every step.
 
 ---
 
-## 📚 Topics Covered
+## 📌 Objective
 
-### 🔹 Python Fundamentals
-- Introduction to Python  
+- Strengthen core Python fundamentals  
+- Build strong logical and problem-solving ability  
+- Practice real-world implementation of ML algorithms  
+- Understand complete machine learning workflows  
+- Create a structured technical reference for interviews  
+- Maintain consistent daily technical revision  
+
+---
+
+# 🐍 1️⃣ Python Core Foundations
+
+A complete revision of Python fundamentals with structured experimentation.
+
+## 🔹 Fundamentals
 - Variables & Data Types  
 - Type Casting  
 - Input / Output Operations  
 - Keywords & Identifiers  
 
----
+## 🔹 Control Flow
+- Conditional Statements (`if`, `elif`, `else`)  
+- Looping (`for`, `while`)  
+- Loop Control (`break`, `continue`, `pass`)  
 
-### 🔹 Control Flow Statements
-- Conditional Statements  
-  - `if`  
-  - `if-else`  
-  - `elif`  
-- Looping Statements  
-  - `for` loop  
-  - `while` loop  
-- Loop control  
-  - `break`  
-  - `continue`  
-  - `pass`  
+## 🔹 Data Structures
+- **List** – indexing, slicing, methods  
+- **Tuple** – immutability & operations  
+- **Set** – uniqueness & set operations  
+- **Dictionary** – key-value logic & methods  
 
----
+## 🔹 Strings
+- Indexing & slicing  
+- Built-in string methods  
+- Palindrome logic  
+- Conversions & manipulations  
 
-### 🔹 Data Structures
-- **List**
-  - Creation, indexing, slicing
-  - List methods
-- **Tuple**
-  - Immutability
-  - Tuple operations
-- **Set**
-  - Unique elements
-  - Set operations
-- **Dictionary**
-  - Key-value pairs
-  - Dictionary methods
-
----
-
-### 🔹 Strings
-- String creation & indexing  
-- String slicing  
-- String methods  
-- Palindrome checks  
-- String to list conversions  
-
----
-
-### 🔹 Functions
+## 🔹 Functions
 - User-defined functions  
-- Function parameters  
-  - Positional arguments  
-  - `*args`  
-  - `**kwargs`  
+- Positional & keyword arguments  
+- `*args` and `**kwargs`  
 - Return statements  
 - Built-in functions  
 
----
-
-### 🔹 Object-Oriented Programming (OOP)
+## 🔹 Object-Oriented Programming
 - Classes & Objects  
-- Constructor (`__init__`)  
+- Constructors (`__init__`)  
 - Attributes & Methods  
-- **Encapsulation**
-  - Private variables (`__variable`)
-  - Getter methods  
-- **Polymorphism**  
-- Real-world class examples (Student, etc.)
+- Encapsulation  
+- Polymorphism  
+- Real-world modeling examples  
 
----
+## 🔹 Exception Handling
+- `try`, `except`, `else`, `finally`  
+- Handling common runtime errors  
 
-### 🔹 Exception Handling
-- `try`  
-- `except`  
-- `else`  
-- `finally`  
-- Common runtime errors  
-
----
-
-### 🔹 File Handling
+## 🔹 File Handling
 - File modes (`r`, `w`, `a`)  
-- Reading and writing files  
+- Reading & writing files  
 - Best practices  
 
 ---
 
-## 🧪 Practice Style
+# 📊 2️⃣ Data Analysis with Python Libraries
 
-- Short, focused Python scripts  
-- Concept-wise experimentation  
-- Beginner-friendly code  
-- Clear comments for understanding  
+Hands-on implementation using industry-standard libraries.
 
----
+## 🔹 NumPy
+- Array creation & operations  
+- Numerical computation  
+- Saving & loading `.npy` files  
 
-## 🛠 Tools & Environment
+## 🔹 Pandas
+- DataFrame creation  
+- Data cleaning  
+- Filtering & aggregation  
+- CSV handling  
 
-- Language: **Python 3**
-- Editor: **VS Code**
-- Learning Source: Structured Python tutorial notes
+## 🔹 Data Visualization
+- Matplotlib – core plotting  
+- Seaborn – statistical visualization  
+- Plot exporting & analysis  
 
----
-
-## 🎯 Who This Repo Is For
-
-- Beginners revising Python  
-- Students preparing for interviews  
-- Anyone wanting a **clean Python refresher**  
-- Self-learners practicing fundamentals  
+This section builds a strong foundation for **Data Analyst and ML roles**.
 
 ---
 
-## 🚀 How to Use
+# 🤖 3️⃣ Machine Learning Roadmap
 
-1. Clone the repository
-   ```bash
-   git clone https://github.com/your-username/python-revision-experiments.git
+A structured and progressive implementation of ML concepts using scikit-learn.
+
+## 🔹 Machine Learning Workflow
+- Introduction to ML  
+- Feature & Label understanding  
+- Train-Test Split  
+- Data preprocessing fundamentals  
+
+## 🔹 Supervised Learning
+
+### 📈 Regression
+- Linear Regression  
+- Multiple Linear Regression  
+- Polynomial Regression  
+
+### 📊 Classification
+- Logistic Regression (Binary & Multi-class)  
+- Decision Tree  
+- K-Nearest Neighbors (KNN)  
+- Naive Bayes  
+- Support Vector Machine (SVM)  
+- Random Forest  
+
+## 🔹 Model Evaluation
+- Precision  
+- Recall  
+- F1 Score  
+- Support  
+- Confusion Matrix  
+
+## 🔹 Model Optimization & Validation
+- Underfitting vs Overfitting  
+- Bias-Variance Understanding  
+- K-Fold Cross Validation  
+
+## 🔹 Unsupervised Learning
+- K-Means Clustering  
+- Principal Component Analysis (PCA)  
+
+## 🔹 Ensemble Learning
+- Bagging  
+- Random Forest  
+- Model aggregation concepts  
+
+---
+
+# 🧠 What This Repository Demonstrates
+
+✔ Strong Python foundation  
+✔ Hands-on implementation of ML algorithms  
+✔ End-to-end ML workflow understanding  
+✔ Knowledge of evaluation metrics  
+✔ Understanding of cross-validation techniques  
+✔ Awareness of bias-variance tradeoff  
+✔ Practical usage of scikit-learn  
+✔ Structured and disciplined learning approach  
+
+---
+
+# 🛠 Tech Stack
+
+- Python 3  
+- NumPy  
+- Pandas  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+- Jupyter Notebook  
+- VS Code  
+
+---
+
+# 🎯 Ideal For
+
+- Python beginners  
+- Data Analyst aspirants  
+- Machine Learning beginners  
+- Interview preparation  
+- Self-learners following a structured roadmap  
+
+---
+
+# 🚀 How to Use
+
+```bash
+git clone https://github.com/rahulgoraksha/python-revision-experiments.git
+cd python-revision-experiments
